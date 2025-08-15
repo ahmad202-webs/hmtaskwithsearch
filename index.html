@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.css">
+</head>
+<body>
+
+
+    <div class="top">
+        <input type="text" class="inpsearh" placeholder="Search...">
+        <div class="top2">
+            <select class="select1">
+                <option value="">Group</option>
+            </select>
+            <button class="bntadd">+ Add Product</button>
+        </div>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>#</th>
+                <th>Product Detail</th>
+                <th>Categories</th>
+                <th>Price</th>
+                <th>QTY</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+
+    <dialog class="dialogdelete">
+        <h1>Are you sure for delete it</h1>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+    </dialog>
+
+
+    <dialog class="dialogedit">
+        <input type="text" class="editjoy">
+        <input type="text" class="editimg">
+        <input type="text" class="editname">
+        <input type="text" class="editinfo">
+        <input type="text" class="editcategory">
+        <input type="text" class="editprice">
+        <input type="text" class="editqty">
+        <select class="editstatus">
+            <option value="In Stock">In Stock</option>
+            <option value="Out of Stock">Out of Stock</option>
+        </select>
+        <button class="editsave">Save</button>
+        <button class="editcancel">Cancel</button>
+    </dialog>
+
+
+    <dialog class="dialogadd">
+        <input type="text" class="addjoy">
+        <input type="text" class="addimg">
+        <input type="text" class="addname">
+        <input type="text" class="addinfo">
+        <input type="text" class="addcategory">
+        <input type="text" class="addprice">
+        <input type="text" class="addqty">
+        <select class="addstatus">
+            <option value="In Stock">In Stock</option>
+            <option value="Out of Stock">Out of Stock</option>
+        </select>
+        <button class="addsave">Save</button>
+        <button class="addcancel">Cancel</button>
+    </dialog>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+input[type="checkbox"] {
+  width: 20px;
+  height: 12px;
+  transform: scale(1.5);
+  cursor: pointer; 
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid gray;
+    margin:100px auto;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+thead{
+    height: 50px;
+    box-shadow: 0px 0px 5px 0px black;
+    border: 1px solid gray;
+}
+
+
+th{
+    text-align: start;
+}
+
+td{
+    border-bottom: 1px gray solid;
+    height: 90px;
+}
+
+.dialogdelete {
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    max-width: 90%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.dialogdelete h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.dialogdelete button {
+    padding: 8px 16px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dialogdelete .yes {
+    background-color: #d9534f;
+    color: white;
+}
+
+.dialogdelete .no {
+    background-color: #5bc0de;
+    color: white;
+}
+
+
+.dialogedit {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 95%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.dialogedit input[type="text"],
+.dialogedit select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.dialogedit button {
+    padding: 10px 20px;
+    margin: 8px 10px 0 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dialogedit .editsave {
+    background-color: #28a745;
+    color: white;
+}
+
+.dialogedit .editcancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.dialogedit[open] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.top{
+    display: flex;
+    gap: 800px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.top2{
+    display: flex;
+    gap: 20px;
+}
+
+.inpsearh{
+    height: 35px;
+    width: 220px;
+}
+
+.bntadd{
+    background-color: rgb(86, 86, 255);
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.select1{
+    width: 200px;
+    cursor: pointer;
+
+}
+
+
+.dialogadd {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 95%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.dialogadd input[type="text"],
+.dialogadd select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.dialogadd button {
+    padding: 10px 20px;
+    margin: 8px 10px 0 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dialogadd .addsave {
+    background-color: #28a745;
+    color: white;
+}
+
+.dialogadd .addcancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.dialogadd[open] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
